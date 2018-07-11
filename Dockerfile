@@ -1,2 +1,3 @@
-FROM payneding/centos6.5
+FROM payneding/centos6.5:latest
+MAINTAINER vincent <payneding@126.com>
 RUN yum install vim tree lrzsz
